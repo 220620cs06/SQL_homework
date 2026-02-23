@@ -91,3 +91,6 @@ LEFT JOIN Departments d
     ON e.DepartmentID = d.DepartmentID
 LEFT JOIN Projects p
     ON e.EmployeeID = p.EmployeeID;
+
+--	In SQL, LAG() and LEAD() are window functions that let you access data from a previous or next row without using self-joins.
+--They are often used in analytics, reporting, and time-series calculations.
